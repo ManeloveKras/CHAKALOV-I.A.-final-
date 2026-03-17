@@ -8,8 +8,3 @@
 - **Реагирование**: Консольные уведомления о блокировке IP и обновлении ПО
 - **Отчеты**: `threat_report.json`, `threat_report.csv`
 - **Визуализация**: `threats_plot.png` (события логов + гистограмма CVSS)
-
-## Запуск
-```bash
-pip install requests pandas matplotlib
-python threat_monitor.py
