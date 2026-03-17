@@ -1,0 +1,39 @@
+{
+  "analysis_date": "2026-03-17T15:32:15.477210",
+  "total_threats": 3,
+  "suspicious_ips": [
+    "192.168.1.100"
+  ],
+  "high_cvss_vulns": [
+    {
+      "id": "CVE-2023-1234",
+      "title": "Apache Critical RCE",
+      "cvss": 9.8
+    },
+    {
+      "id": "CVE-2025-5678",
+      "title": "DNS Amplification",
+      "cvss": 8.1
+    }
+  ],
+  "threats": [
+    {
+      "type": "high_dns",
+      "ip": "192.168.1.100",
+      "severity": "high",
+      "timestamp": "2026-03-17T15:32:13.975447"
+    },
+    {
+      "type": "vulnerability",
+      "cve": "CVE-2023-1234",
+      "cvss": 9.8,
+      "timestamp": "2026-03-17T15:32:13.975455"
+    },
+    {
+      "type": "vulnerability",
+      "cve": "CVE-2025-5678",
+      "cvss": 8.1,
+      "timestamp": "2026-03-17T15:32:13.975457"
+    }
+  ]
+}
